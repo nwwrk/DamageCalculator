@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1">
+
+		<TextView
+			android:text="@string/lblAtk"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/lblAtk" />
+
+		<EditText
+			android:inputType="numberSigned"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/txtAtk" />
+
+		<TextView
+			android:text="@string/lblHp"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/lblHp" />
+
+		<EditText
+			android:inputType="numberSigned"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/txtHp" />
+
+		<TextView
+			android:text="@string/lblDef"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/lblDef" />
+
+		<EditText
+			android:inputType="numberSigned"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/txtDef" />
+
+		<TextView
+			android:text="@string/lblPower"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/lblPower" />
+
+		<EditText
+			android:inputType="numberSigned"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/txtPower" />
+
+		<TextView
+			android:text="@string/lblPowerStat"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/lblPowerStat" />
+
+		<EditText
+			android:inputType="numberDecimal"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/txtPowerStat" />
+
+		<TextView
+			android:text="@string/lblStat"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/lblStat" />
+
+		<EditText
+			android:inputType="numberDecimal"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/txtStat" />
+
+		<Button
+			android:text="@string/btnCal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnCal" />
+
+		<TextView
+			android:text="@string/lblResult"
+			android:textAppearance="?android:attr/textAppearanceLarge"			
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/lblResult" />
+
+		<TextView
+			android:text=""
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/txtResult" />
+
+	</LinearLayout>
+</ScrollView>
